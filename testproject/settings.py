@@ -136,12 +136,12 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 MEDIA_URL = '/media/'
 MEDIA_ROOT =  BASE_DIR / 'media/'
 #Aws media storage configurations
-# AWS_ACCESS_KEY_ID = 'AKIARVGPJVYVP7XN2E5V'
-# AWS_SECRET_ACCESS_KEY = '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'
-# AWS_STORAGE_BUCKET_NAME = 'bucketeer-877dd773-51d8-45f1-bff8-64ae71ebc53d'
-# AWS_S3_FILE_OVERWRITE = False
-# AWS_DEFAULT_ACL = None
-# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_ACCESS_KEY_ID = 'AKIARVGPJVYVLNFAAMTG'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'bucketeer-877dd773-51d8-45f1-bff8-64ae71ebc53d'
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
