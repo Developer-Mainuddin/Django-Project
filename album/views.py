@@ -11,3 +11,12 @@ def album(request):
         'albums':albums
     }
     return render(request, 'album/index.html', context)
+
+
+def blueberry(request):
+
+    context = {
+
+    }
+
+    return render(request, 'album/blueberry.html', context)
