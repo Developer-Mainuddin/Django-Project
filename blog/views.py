@@ -43,10 +43,9 @@ def blog_details(request, slug):
 
 
         # if a GET (or any other method) we will create a blank form
-        else:
+    else:
 
-            comment_form = CommentForm()
-
+        comment_form = CommentForm()
 
         context = {
             'post':post,
