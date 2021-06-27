@@ -48,12 +48,12 @@ def blog_details(request, slug):
             comment_form = CommentForm()
 
 
-            context = {
-                'post':post,
-                'comments':comments
-            }
+        context = {
+            'post':post,
+            'comments':comments
+        }
 
-            return render(request, 'blog/details.html', context)
+        return render(request, 'blog/details.html', context)
         
 
 
