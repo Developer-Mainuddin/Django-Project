@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'album',
     'blog',
     'storages',
+    'taggit',
+    'django_summernote',
 ]
 
 MIDDLEWARE = [
