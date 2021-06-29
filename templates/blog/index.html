@@ -181,7 +181,7 @@
               </h3>
 
               <p>
-                {{ post.description }}
+                {{ post.description | safe }}
               </p>
 
               <div class="media align-items-center pt-5">
@@ -200,6 +200,7 @@
                     Read More
                   </button>
                   </a>
+                  </div>
                   </div>
                 </div>
                 <div
